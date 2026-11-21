@@ -16,7 +16,7 @@ def multiply(a,b):
 
 def divide(a,b):
     if a == 0:
-        raise ZeroDivis
+        raise ZeroDivisionError
     return b / a
 
 def logarithm(a,b):
