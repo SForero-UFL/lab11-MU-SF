@@ -4,6 +4,11 @@ calculator.py
 
 One function per operation, in order.
 """
+# https://github.com/TheShmill/lab11-swe
+# Partner 1: Mason Udell
+# Partner 2: Samantha Forero
+
+
 def square_root(a):
     if a < 0:
         raise ValueError
