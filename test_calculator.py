@@ -3,6 +3,12 @@
 # Partner 2: Samantha Forero
 
 
+
+test_hypotenuse (test_calculator.TestCalculator) ... FAIL
+
+
+
+
 import unittest
 from calculator import *
 
@@ -47,7 +53,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_log_invalid_base(self):  # 1 assertion
             with self.assertRaises(ValueError):
-                log(-1, 0)
+                logarithm(-1, 0)
 
 
 
