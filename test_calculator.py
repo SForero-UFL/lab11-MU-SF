@@ -31,16 +31,16 @@ class TestCalculator(unittest.TestCase):
 
 
     def test_multiply(self):
-        self.assertEqual(multiply(2, 4), 8)
-        self.assertEqual(multiply(-3, 2), -6)
-        self.assertEqual(multiply(0, 2), 0)
+        self.assertEqual(mul(2, 4), 8)
+        self.assertEqual(mul(-3, 2), -6)
+        self.assertEqual(mul(0, 2), 0)
 
 
 
     def test_divide(self):
-        self.assertEqual(divide(2, 4), 2)
-        self.assertAlmostEqual(divide(3, 1), 0.3333333)
-        self.assertRaises(ZeroDivisionError, divide, 0, 4)
+        self.assertEqual(div(2, 4), 2)
+        self.assertAlmostEqual(div(3, 1), 0.3333333)
+        self.assertRaises(ZeroDivisionError, div, 0, 4)
 
 
 
@@ -63,7 +63,7 @@ class TestCalculator(unittest.TestCase):
     def test_hypotenuse(self):
         self.assertEqual(hypotenuse(3, 4), 5)
         self.assertEqual(hypotenuse(-3, -4), 5)
-        self.assertAlmostEqual(hypotenuse(3, 2), 3.6055512)
+        self.assertAlmostEqual(hypotenuse(3, 2), 3.605551275463989)
 
     def test_sqrt(self):
         self.assertEqual(square_root(9), 3)
