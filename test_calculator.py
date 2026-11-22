@@ -4,7 +4,6 @@
 
 
 
-test_hypotenuse (test_calculator.TestCalculator) ... FAIL
 
 
 
@@ -16,7 +15,7 @@ class TestCalculator(unittest.TestCase):
     def test_add(self): # 3 assertions
             self.assertEqual(add(5, 5), 10)
             self.assertEqual(add(0, 5), 5)
-            self.assertEqual(add(-10, 9), 1)
+            self.assertEqual(add(-10, 9), -1)
 
     def test_subtract(self):  # 3 assertions
             self.assertEqual(subtract(10, 5), 5)
