@@ -1,4 +1,4 @@
-# https://github.com/TheShmill/lab11-swe
+# https://github.com/SForero-UFL/lab11-MU-SF.git
 # Partner 1: Mason Udell
 # Partner 2: Samantha Forero
 
