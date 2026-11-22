@@ -1,3 +1,8 @@
+# https://github.com/TheShmill/lab11-swe
+# Partner 1: Mason Udell
+# Partner 2: Samantha Forero
+
+
 import unittest
 from calculator import *
 
